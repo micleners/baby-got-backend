@@ -198,13 +198,17 @@ I've just begun to play around with this, but so far I'm loving Contentful. Here
 # 🙏 Thank you for coming and have a great rest of the conference!
 </div>
 <div style="background: #F7F7F7; width: 350px; padding: 0 10px 10px 10px; border-radius: 5px;">
-    <h5>Brought to you by:</h5>
-    <img style="height: 50px;" src="static/bgb/sa-logo.png"/>
-    <br>
     <h5 style="margin-top:10px;"><em>Presentation by</em></h5>
     <h2 style="margin-top:4px; margin-left: 30px"><em style="color:#3D1A57"> Michael Leners</em></h2>
         <h2 style="color: #3D1A57; display:flex; flex-direction: row; align-items: baseline;"><img style="display:inline; height: 50px; margin: none;" src="static/bgb/twitter.png"/><em>@micleners</em>
         </h2>
         <h2 style="color: #3D1A57; display:flex; flex-direction: row; align-items: baseline;"><img style="display:inline; height: 50px; margin: none;" src="static/bgb/github.png"/><em>@micleners</em></h2>
+    <h5>Brought to you by:</h5>
+    <img style="height: 50px;" src="static/bgb/sa-logo.png"/>
 </div>
 </div>
+
+
+```python
+
+```
