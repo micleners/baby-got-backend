@@ -1,0 +1,30 @@
+<p>event-list works!</p>
+<ul class="u-listReset">
+  <li *ngFor="let event of events">
+    {{ event.fields.title }}
+  </li>
+</ul>
+
+<button (click)="consoleLog()">Log Events</button>
+<div class="event-container">
+  <mat-card *ngFor="let event of events" class="event-card">
+    <mat-card-header>
+      <div mat-card-avatar class="event-header-image"></div>
+      <mat-card-title>{{ event.fields.title }}</mat-card-title>
+      <mat-card-subtitle>
+        {{ event.fields.presenter.fields.firstName }}
+        {{ event.fields.presenter.fields.lastName }}
+      </mat-card-subtitle>
+      <mat-card-subtitle *ngIf="event.fields.location">
+        {{ event.fields.location.fields.name }}<br />
+        {{ event.fields.location.fields.address }}
+      </mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>RSVP</button>
+      <button mat-button>Contact</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

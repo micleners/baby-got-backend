@@ -1,0 +1,15 @@
+.event-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.event-card {
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.event-header-image {
+  background-image: url('https://picsum.photos/200/300');
+  background-size: cover;
+}
